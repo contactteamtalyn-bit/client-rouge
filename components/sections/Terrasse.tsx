@@ -7,8 +7,8 @@ export function Terrasse() {
     <section id="terrasse" className="relative flex min-h-[70vh] items-center overflow-hidden bg-[#E8D4C4] py-20 text-[#1A1210]">
       {/* Photo diagonale — desktop */}
       <div
-        className="absolute inset-y-0 left-0 hidden w-[65%] md:block"
-        style={{ clipPath: 'polygon(0 0, 100% 0, 75% 100%, 0 100%)' }}
+        className="absolute inset-y-0 left-0 hidden w-[50%] md:block"
+        style={{ clipPath: 'polygon(0 0, 100% 0, 78% 100%, 0 100%)' }}
       >
         <SmartImage src="/images/salle/terrasse.jpg" alt="La terrasse de Rouge, avenue de Suffren" className="h-full w-full object-cover" />
         <div className="absolute inset-0 bg-black/40" />
